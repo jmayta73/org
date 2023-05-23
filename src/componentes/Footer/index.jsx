@@ -4,7 +4,7 @@ import "./Footer.css"
 const Footer = ()=> {
     const fecha = new Date()
     const anho = fecha.getFullYear();
-    return <footer className="footer" style={{backgroundImage:"url(/img/footer.png)"}}>
+    return <footer className="footer" style={{backgroundImage:"url(/img/Footer.png)"}}>
         <div className="redes">
         <a href='https://www.aluracursos.com/'> 
             <img src="/img/facebook.png" alt="Facebook"/>
